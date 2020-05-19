@@ -19,7 +19,7 @@ U 1 1 5EBED8BF
 P 3650 4000
 F 0 "SC1" V 3895 4050 50  0000 C CNN
 F 1 "Solar_Cell" V 3804 4050 50  0000 C CNN
-F 2 "" V 3650 4060 50  0001 C CNN
+F 2 "Solar-Wing:XTJ Prime" V 3650 4060 50  0001 C CNN
 F 3 "https://www.spectrolab.com/photovoltaics/XTJ-Prime_Data_Sheet.pdf" V 3650 4060 50  0001 C CNN
 	1    3650 4000
 	0    -1   -1   0   
@@ -30,7 +30,7 @@ U 1 1 5EBEE3D1
 P 4300 4000
 F 0 "SC2" V 4545 4050 50  0000 C CNN
 F 1 "Solar_Cell" V 4454 4050 50  0000 C CNN
-F 2 "" V 4300 4060 50  0001 C CNN
+F 2 "Solar-Wing:XTJ Prime" V 4300 4060 50  0001 C CNN
 F 3 "https://www.spectrolab.com/photovoltaics/XTJ-Prime_Data_Sheet.pdf" V 4300 4060 50  0001 C CNN
 	1    4300 4000
 	0    -1   -1   0   
@@ -41,7 +41,7 @@ U 1 1 5EBEEA01
 P 4950 4000
 F 0 "SC3" V 5195 4050 50  0000 C CNN
 F 1 "Solar_Cell" V 5104 4050 50  0000 C CNN
-F 2 "" V 4950 4060 50  0001 C CNN
+F 2 "Solar-Wing:XTJ Prime" V 4950 4060 50  0001 C CNN
 F 3 "https://www.spectrolab.com/photovoltaics/XTJ-Prime_Data_Sheet.pdf" V 4950 4060 50  0001 C CNN
 	1    4950 4000
 	0    -1   -1   0   
