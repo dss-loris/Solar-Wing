@@ -73,9 +73,34 @@ Wire Wire Line
 Wire Wire Line
 	3750 3250 3750 4000
 Connection ~ 4400 3250
-Text GLabel 5400 3250 2    50   Input ~ 0
+Text GLabel 6400 3250 2    50   Input ~ 0
 -
+$Comp
+L Device:Solar_Cell SC4
+U 1 1 5EC9788E
+P 5550 4000
+F 0 "SC4" V 5795 4050 50  0000 C CNN
+F 1 "Solar_Cell" V 5704 4050 50  0000 C CNN
+F 2 "Solar-Wing:XTJ Prime" V 5550 4060 50  0001 C CNN
+F 3 "https://www.spectrolab.com/photovoltaics/XTJ-Prime_Data_Sheet.pdf" V 5550 4060 50  0001 C CNN
+	1    5550 4000
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	5050 3250 5400 3250
+	5650 4000 6000 4000
+Wire Wire Line
+	6000 4000 6000 3250
+Wire Wire Line
+	6000 3250 6400 3250
+Wire Wire Line
+	5050 3250 6000 3250
 Connection ~ 5050 3250
+Connection ~ 6000 3250
+Wire Wire Line
+	5350 4000 5200 4000
+Wire Wire Line
+	5200 4000 5200 4400
+Wire Wire Line
+	5200 4400 4750 4400
+Connection ~ 4750 4400
 $EndSCHEMATC
